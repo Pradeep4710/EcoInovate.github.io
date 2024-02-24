@@ -1,0 +1,149 @@
+/* Global styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+  li{
+    font-size: 17px;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  .team-name{
+    position: relative;
+    left: 250px;
+  }
+  /* Navbar styles */
+  .navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    
+        height: 130px; /* set the height to 50 pixels */
+      
+        
+  }
+  .navbar-nav a:hover {
+  color: #8bc34a;
+}
+
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    height: 100vh;
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    font-size: 4rem;
+    color: #fff;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  
+  /* Services section styles */
+  #services {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+  }
+  
+  .service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #2ecc71;
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 4rem 0;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  /* Team section styles */
+  #team {
+    padding: 4rem 0;
+  }
+  
+  .team-member {
+    margin-bottom: 2rem;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h5 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    padding: 4rem 0;
+  }
+  
+  .form-group label {
+    font-weight: 700;
+  }
+  
+  .form-control {
+    border: 1px solid #ccc;
+  }
+  
+  .btn-primary {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+  }
+  
+  .btn-primary:hover {
+    background-color: #27ae60;
+    border-color: #27ae60;
+  }
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fadeInUp {
+    animation: fadeInUp 1s ease forwards;
+}
